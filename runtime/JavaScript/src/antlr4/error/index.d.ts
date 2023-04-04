@@ -1,8 +1,10 @@
 export * from './RecognitionException';
 export * from './NoViableAltException';
+export * from './LexerNoViableAltException';
+export * from './InputMismatchException';
 export * from './FailedPredicateException';
 export * from './ErrorStrategy';
 export * from './BailErrorStrategy';
 export * from './ErrorListener';
+export * from './DefaultErrorStrategy';
 export * from './DiagnosticErrorListener';
-
